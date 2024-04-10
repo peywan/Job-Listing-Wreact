@@ -1,24 +1,24 @@
 export default function App() {
 
-    const name = 'Peywan'
-
-    const peywanInfo =
-        {
-            name: name,
-            age: 25,
-            hobbies: ['football', 'basketball', 'cricket']
-        }
-
+const names = ["John", "Doe", "Smith", "Jones", "Williams", "Brown", "Davis",]
+const loggedIn = true
+const styles = {
+    color: 'purple',
+    fontSize: '202px',
+}
     return (
 
         <div className="flex ">
+            <div>
+                <p style={{color: 'red', fontSize: 90, fontWeight: 'bold'}}>hello styled john</p>
+                <ul>
+                    {names.map((name, namesIndex) => (<li
+                        key={namesIndex}>
+                        {name}</li>))}
+                </ul>
 
-            <h1 className="text-3xl font-bold underline rounded-xl border-8 grey border-black bg-gray-300 px-20 m-20">
-                Hello {name}
-                <p>Namn: {peywanInfo.name}</p>
-                <p>Ålder: {peywanInfo.age}</p>
-            </h1>
-        </div>
-    )
+                { loggedIn ? <h1 style={styles}>hello member</h1> : <h1>hello guest</h1>}
+            </div>
+        </div>)
 }
 
