@@ -1,11 +1,11 @@
-import header from './components/Navbar.jsx'
-import hero from './components/Hero'
+import Header from './components/Navbar.jsx'
+import Hero from './components/Hero'
 
 const App = () => {
     return (
         <>
-            {header()}
-            {hero()}
+            <Header />
+            <Hero title="test title"  subtitle="this is the subtitle"/>
 
 
             {/*<!-- Developers and Employers --> */}
