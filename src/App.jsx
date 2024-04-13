@@ -5,7 +5,7 @@ const App = () => {
     return (
         <>
             <Header />
-            <Hero title="test title"  subtitle="this is the subtitle"/>
+            <Hero title='test title'  subtitle='this is the subtitle'/>
 
 
             {/*<!-- Developers and Employers --> */}
