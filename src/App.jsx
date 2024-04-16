@@ -1,11 +1,13 @@
 import Header from './components/Navbar.jsx'
 import Hero from './components/Hero'
+import HomeCards from './components/HomeCards.jsx'
 
 const App = () => {
     return (
         <>
             <Header />
             <Hero title="test title" subtitle="this is the subtitle" />
+            <homeCards />
 
 
 
