@@ -1,14 +1,13 @@
 import Header from './components/Navbar.jsx'
 import Hero from './components/Hero'
-import HomeCards from './components/HomeCards.jsx'
+import HomeCards from './components/HomeCards'
 
 const App = () => {
     return (
         <>
             <Header />
-            <Hero title="test title" subtitle="this is the subtitle" />
-            <homeCards />
-
+            <Hero title="React Jobs" subtitle="Find your next developer job." />
+            <HomeCards />
 
 
 
