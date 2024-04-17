@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 
-const Card = ({ children }) => {
+const Card = ({ children, bg = 'bg-gray-100' }) => {
     return (
-        <div className="bg-gray-100 shadow-md rounded-lg p-6 mb-4">{children}</div>
+        <div className={`${bg} p-6 mb-4 rounded-lg shadow-md`}>{children}</div>
     );
 };
 
