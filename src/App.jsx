@@ -10,7 +10,7 @@ const App = () => {
             <Header />
             <Hero title="React Jobs" subtitle="Find your next developer job." />
             <HomeCards />
-            <JobListings />f
+            <JobListings />
             <ViewAllJobs />
         </>
     )
